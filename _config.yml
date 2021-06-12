@@ -1,0 +1,34 @@
+title: Forty
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+description: >-
+  A responsive site template designed by HTML5 Up<br /> and released under the
+  Creative Commons.
+baseurl: ''
+url: ''
+author: null
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
+tiles-source: pages
+tiles-count: 6
+socials:
+  GitHub: 'https://github.com/andrewbanchich'
+  GitLab: null
+  Google-Plus: 'https://plus.google.com/u/0/+AndrewBanchich'
+  Instagram: null
+  LinkedIn: 'https://www.linkedin.com/in/andrew-banchich-a4ba1195'
+  Twitter: 'https://twitter.com/andrewbanchich'
+  Facebook: null
+  Slack: null
+markdown: kramdown
+sass:
+  style: compressed
+exclude:
+  - '*.gemspec'
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md

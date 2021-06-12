@@ -1,0 +1,127 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  page_1:
+    type: page
+    label: Page 1
+    match:
+      - _posts/2016-8-20-etiam.md
+      - _posts/2016-8-21-consequat.md
+      - _posts/2016-8-22-ipsum.md
+      - _posts/2016-8-23-magna.md
+      - _posts/2016-8-24-tempus.md
+      - _posts/2016-8-25-aliquam.md
+      - generic.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: description
+        label: Description
+      - type: image
+        name: image
+        label: Image
+      - type: boolean
+        name: nav-menu
+        label: Nav Menu
+  page_2:
+    type: page
+    label: Page 2
+    match:
+      - 404.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: number
+        name: title
+        label: Title
+        subtype: int
+      - type: boolean
+        name: show_tile
+        label: Show Tile
+  page_3:
+    type: page
+    label: Page 3
+    match:
+      - all_posts.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: landing-title
+        label: Landing Title
+      - type: boolean
+        name: nav-menu
+        label: Nav Menu
+      - type: boolean
+        name: show_tile
+        label: Show Tile
+  page_4:
+    type: page
+    label: Page 4
+    match:
+      - elements.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: image
+        name: image
+        label: Image
+      - type: boolean
+        name: nav-menu
+        label: Nav Menu
+  page_5:
+    type: page
+    label: Page 5
+    match:
+      - index.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: landing-title
+        label: Landing Title
+      - type: boolean
+        name: show_tile
+        label: Show Tile
+  page_6:
+    type: page
+    label: Page 6
+    match:
+      - landing.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: layout
+        label: Layout
+      - type: markdown
+        name: description
+        label: Description
+      - type: image
+        name: image
+        label: Image
+      - type: boolean
+        name: nav-menu
+        label: Nav Menu
